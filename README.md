@@ -103,4 +103,19 @@ Terrasat uses blockchain not as a gimmick, but as a **surgical tool** to ensure 
 ## 📚 Table of Contents
 
 1. 🌍 Introduction: The Terrasat Mission  
-2. 🧩 Terrasat Produ
+2. 🧩 Terrasat Product Suite  
+   - Terra-Analytics Engine  
+   - Terra-Launchpad  
+   - Terra-Finance Gateway  
+3. 🏗️ Technology Stack  
+4. 🔗 Blockchain Trust Layer  
+   - Why Polygon  
+   - Credit Lifecycle  
+
+---
+
+## 🌱 Join the Movement
+
+Let’s build a regenerative, transparent natural capital economy for Africa — together. 🚜🌳  
+**From the ground up.**
+
