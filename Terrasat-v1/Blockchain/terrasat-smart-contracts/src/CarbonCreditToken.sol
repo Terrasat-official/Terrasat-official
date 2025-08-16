@@ -17,6 +17,7 @@ contract CarbonCreditToken {
     event Minted(uint256 indexed tokenId, string projectId, string creditType);
     event Retired(uint256 indexed tokenId);
 
+
     function mint(
         string memory projectId,
         uint256 vintage,
