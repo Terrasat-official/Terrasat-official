@@ -38,3 +38,25 @@ contract CarbonCreditToken {
         return credits[tokenId];
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
