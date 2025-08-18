@@ -4,7 +4,7 @@ out = "out"
 libs = ["lib"]
 
 [rpc_endpoints]
-amoy = "https://polygon-amoy.infura.io/v3/a78e9a1c076245d98983d3e8583eb5e5"
+amoy = "https://polygon-amoy.infura.io/v3/a65b750778b1437c83582fdac1304893"
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
 
