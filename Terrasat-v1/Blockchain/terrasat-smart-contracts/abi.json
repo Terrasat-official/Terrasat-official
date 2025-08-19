@@ -1,0 +1,90 @@
+[
+  {
+    "type": "function",
+    "name": "credits",
+    "inputs": [
+      { "name": "", "type": "uint256", "internalType": "uint256" }
+    ],
+    "outputs": [
+      { "name": "projectId", "type": "string", "internalType": "string" },
+      { "name": "vintage", "type": "uint256", "internalType": "uint256" },
+      { "name": "creditType", "type": "string", "internalType": "string" },
+      { "name": "verificationHash", "type": "string", "internalType": "string" },
+      { "name": "quantity", "type": "uint256", "internalType": "uint256" },
+      { "name": "retired", "type": "bool", "internalType": "bool" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getCredit",
+    "inputs": [
+      { "name": "tokenId", "type": "uint256", "internalType": "uint256" }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct CarbonCreditToken.Credit",
+        "components": [
+          { "name": "projectId", "type": "string", "internalType": "string" },
+          { "name": "vintage", "type": "uint256", "internalType": "uint256" },
+          { "name": "creditType", "type": "string", "internalType": "string" },
+          { "name": "verificationHash", "type": "string", "internalType": "string" },
+          { "name": "quantity", "type": "uint256", "internalType": "uint256" },
+          { "name": "retired", "type": "bool", "internalType": "bool" }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "mint",
+    "inputs": [
+      { "name": "projectId", "type": "string", "internalType": "string" },
+      { "name": "vintage", "type": "uint256", "internalType": "uint256" },
+      { "name": "creditType", "type": "string", "internalType": "string" },
+      { "name": "verificationHash", "type": "string", "internalType": "string" },
+      { "name": "quantity", "type": "uint256", "internalType": "uint256" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "nextTokenId",
+    "inputs": [],
+    "outputs": [
+      { "name": "", "type": "uint256", "internalType": "uint256" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "retire",
+    "inputs": [
+      { "name": "tokenId", "type": "uint256", "internalType": "uint256" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "event",
+    "name": "Minted",
+    "inputs": [
+      { "name": "tokenId", "type": "uint256", "indexed": true, "internalType": "uint256" },
+      { "name": "projectId", "type": "string", "indexed": false, "internalType": "string" },
+      { "name": "creditType", "type": "string", "indexed": false, "internalType": "string" }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Retired",
+    "inputs": [
+      { "name": "tokenId", "type": "uint256", "indexed": true, "internalType": "uint256" }
+    ],
+    "anonymous": false
+  }
+]
