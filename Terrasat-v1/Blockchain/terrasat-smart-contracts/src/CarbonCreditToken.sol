@@ -38,6 +38,11 @@ contract CarbonCreditToken {
     function getCredit(uint256 tokenId) public view returns (Credit memory) {
         return credits[tokenId];
     }
+
+        // ✅ Add this to fix your warning
+    function totalSupply() public view returns (uint256) {
+        return nextTokenId;
+    }
     
 
 }
