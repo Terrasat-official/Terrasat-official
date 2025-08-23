@@ -6,7 +6,15 @@ libs = ["lib"]
 [rpc_endpoints]
 amoy = "https://polygon-amoy.infura.io/v3/a65b750778b1437c83582fdac1304893"
 
+[etherscan]
+polygon = { key = "JSWTKIM6BXU9T39DNKB5IDQD41IEWYQ5VN"}
+
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+
+
+
 
 
 

@@ -4,7 +4,7 @@ pragma solidity ^0.8.20;
 import "forge-std/Test.sol";
 import "../src/CarbonCreditToken.sol";
 
-contract CarbonCreditTokenTest is Test {
+contract CarbonTest is Test {
     CarbonCreditToken token;
 
     function setUp() public {
