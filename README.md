@@ -1,7 +1,7 @@
 # 🌍 Terrasat Platform & Technology Overview
 
 **Version:** 1.0  
-**Date:** July 31, 2025  
+**Date:** January , 2026 
 **Contact:** 📬 [partnerships@terrasat.live](mailto:partnerships@terrasat.live)
 
 ---
